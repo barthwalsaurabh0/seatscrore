@@ -11,7 +11,7 @@ SeatScore is an intelligent system that assigns a "seat deservingness" score to 
 ## Project Structure
 
 ```
-├── seatscore.py                     # Main module with SeatScore logic and utilities
+├── seatscore.py                     # module to use the trained regression tree model
 ├── seatscore_decision_tree_model_train.py   # Script for training the regression tree model
 ├── seatscore_infered_live.py       # Real-time inference and seat score visualization
 ├── shape_predictor_68_face_landmarks.dat    # Pre-trained facial landmark model (Dlib)
@@ -19,7 +19,6 @@ SeatScore is an intelligent system that assigns a "seat deservingness" score to 
 ├── seatscore_tree.pkl              # Trained regression tree model
 ├── hyperparameters.yaml            # YOLO model training hyperparameters
 ├── results.csv                     # Final results and performance metrics
-├── confusion_matrix_normalized.png # Confusion matrix of fatigue detection model
 ├── report.pdf                      # Detailed report (architecture, methodology, results)
 └── README.md
 ```
@@ -54,14 +53,7 @@ python seatscore_infered_live.py
 
 The script captures video feed, processes fatigue (via EAR and YOLO), estimates age & gender (via DeepFace), and overlays the calculated seat score.
 
-### 3. Visualize Confusion Matrix
-`confusion_matrix_normalized.png` shows the performance of the fatigue detection model.
 
-## Notes
-
-- Feature extraction combines 80% weight from a custom-trained YOLO model and 20% from EAR-based fatigue detection.
-- Age and gender prediction is done using DeepFace.
-- The regression tree maps these features to a numerical seat score.
 
 For full methodology, data handling, and experiments, refer to `report.pdf`.
 
