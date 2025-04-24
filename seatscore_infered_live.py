@@ -9,7 +9,11 @@ import time
 from seatscore import predict_seatscore
 
 # ================== PARAMETERS ==================
+<<<<<<< HEAD
 YOLO_MODEL_PATH = 'yolov_awake_drowsy_11m_last.pt'
+=======
+YOLO_MODEL_PATH = 'last_l.pt'
+>>>>>>> master
 LANDMARK_MODEL_PATH = 'shape_predictor_68_face_landmarks.dat'
 
 FRAME_HISTORY_SEC = 10      # how many seconds to keep history
@@ -20,8 +24,13 @@ YOLO_IGNORE_CLASSES = ['0', '1']
 
 FACE_ANALYZE_INTERVAL = 10    # seconds between DeepFace analysis
 
+<<<<<<< HEAD
 awake_keywords = ['Awake', 'Alert', 'Normal', 'awake']
 drowsy_keywords = ['Drowsiness', 'Drowsiness -Glasses-', 'Drowsiness -SunGlasses-', 'Drowsy', 'Eyes closed', 'Sleepy', 'Yawn', 'drowsy']
+=======
+awake_keywords = ['Awake']
+drowsy_keywords = ['Drowsy']
+>>>>>>> master
 # =================================================
 
 # ================== HELPERS ==================
