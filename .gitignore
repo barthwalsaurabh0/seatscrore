@@ -1,0 +1,20 @@
+# Virtual environment
+venv/
+env/
+
+# VSCode settings
+.vscode/
+
+# Dataset files
+data/
+datasets/
+
+
+
+
+
+
+
+
+
+
