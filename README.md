@@ -6,8 +6,7 @@
 
 ## Overview
 
-SeatScore is an intelligent system that assigns a "seat deservingness" score to passengers in public transport based on fatigue, age, and gender. It uses a combination of facial analysis techniques and a regression tree model to infer seat priority, promoting fairness in crowded scenarios.
-
+SeatScore is an intelligent system that assigns a "seat deservingness" score to passengers in public transport based on fatigue, age, and gender.
 ## Project Structure
 
 ```
