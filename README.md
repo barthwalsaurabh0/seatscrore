@@ -1,4 +1,4 @@
-#CHatgpt told me :-
+# Chatgpt told me :-
 
 # 🪑 SeatScore: Real-Time Fatigue Detection & Seat Comfort Estimation
 
