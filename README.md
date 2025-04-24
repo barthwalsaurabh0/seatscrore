@@ -4,6 +4,8 @@
 **Course:** AIL721 - Deep Learning, IIT Delhi  
 **Authors:** Kushagra Karar (2024CSY7554), Saurabh Barthwal (2024CSY7562), Vedant Sharma (2024CSY7553)
 
+**Submitted To:** Dr. James Arambam
+
 ## Overview
 
 SeatScore is an intelligent system that assigns a "seat deservingness" score to passengers in public transport based on fatigue, age, and gender.
